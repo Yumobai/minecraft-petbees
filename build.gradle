@@ -1,5 +1,5 @@
 plugins { id 'net.fabricmc.fabric-loom' version '1.17.9' }
-version = '1.0.4+26.2'
+version = '1.0.5+26.2'
 group = 'dev.petbees'
 repositories { maven { url = 'https://api.modrinth.com/maven' } }
 dependencies {
