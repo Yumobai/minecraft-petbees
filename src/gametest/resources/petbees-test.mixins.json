@@ -1,0 +1,1 @@
+{"required":true,"package":"dev.petbees.testmixin","compatibilityLevel":"JAVA_25","mixins":["BeeTestAccess"]}

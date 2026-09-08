@@ -1,0 +1,13 @@
+.gradle/
+build/
+run/
+libs/
+compat-mods/
+.idea/
+.vscode/
+*.log
+*.log.gz
+.env
+.env.*
+*.zip
+.DS_Store

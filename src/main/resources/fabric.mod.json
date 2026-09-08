@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "petbees",
+  "version": "${version}",
+  "name": "宠物蜜蜂 | Pet Bees",
+  "description": "Tame vanilla bees with bee snacks. Bees keep their daily routine and defend their owner near their home.",
+  "authors": [
+    "Yumobai"
+  ],
+  "license": "GPL-3.0-only",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.petbees.PetBees"
+    ],
+    "jade": [
+      "dev.petbees.jade.PetBeesJade"
+    ]
+  },
+  "mixins": [
+    "petbees.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "26.2",
+    "java": ">=25",
+    "fabric-api": ">=0.158.0"
+  },
+  "suggests": {
+    "jade": ">=26.2.11"
+  },
+  "contact": {
+    "sources": "https://github.com/Yumobai/minecraft-petbees",
+    "issues": "https://github.com/Yumobai/minecraft-petbees/issues"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "commands.petbees.help": "/petbees count 或 watch：全维度已加载数量；追加 nearby：自身附近32格；/petbees watch off：关闭",
+  "commands.petbees.count": "你的蜜蜂〔全维度已加载〕：%s（在外 %s，巢内 %s，含幼蜂）",
+  "commands.petbees.live": "蜜蜂〔全维度已加载〕：%s | 在外 %s | 巢内 %s | 变化 %s",
+  "commands.petbees.scope": "统计全维度已加载的存活蜜蜂，约每秒更新；不含未加载区块及物品中的蜜蜂。数量下降也可能是区块卸载或蜂箱被收走，不一定是死亡或脱驯。 查看蜂场附近请使用 /petbees count nearby 或 /petbees watch nearby（以自己为中心32格）。",
+  "commands.petbees.watch_started": "实时数量显示已开启，每秒在快捷栏上方刷新；用 /petbees watch off 关闭。",
+  "commands.petbees.watch_stopped": "实时数量显示已关闭。",
+  "item.petbees.bee_snack": "蜜蜂小食",
+  "tooltip.petbees.tamed": "已驯服",
+  "tooltip.petbees.untamed": "未驯服",
+  "tooltip.petbees.hive_wild_count": "未驯服蜜蜂：%s",
+  "tooltip.petbees.owner": "主人：%s",
+  "tooltip.petbees.hive_count": "已驯服蜜蜂：%s",
+  "tooltip.petbees.hive_owner": "蜜蜂 %s · 主人：%s",
+  "config.jade.plugin_petbees.owner": "蜜蜂认主信息",
+  "config.jade.plugin_petbees.hive_owners": "蜂箱内蜜蜂认主信息",
+  "commands.petbees.nearby": "你的蜜蜂〔当前维度附近32格〕：%s | 在外 %s | 巢内 %s（含幼蜂）"
+}

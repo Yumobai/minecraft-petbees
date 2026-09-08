@@ -1,0 +1,34 @@
+plugins { id 'net.fabricmc.fabric-loom' version '1.17.9' }
+version = '1.0.4+26.2'
+group = 'dev.petbees'
+repositories { maven { url = 'https://api.modrinth.com/maven' } }
+dependencies {
+    minecraft 'com.mojang:minecraft:26.2'
+    implementation 'net.fabricmc:fabric-loader:0.19.3'
+    implementation 'net.fabricmc.fabric-api:fabric-api:0.158.0+26.2'
+    compileOnly files('libs/jade.jar')
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.12.2'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+java { sourceCompatibility = JavaVersion.VERSION_25; targetCompatibility = JavaVersion.VERSION_25; withSourcesJar() }
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8'; options.release = 25 }
+processResources { inputs.property 'version', project.version; filesMatching('fabric.mod.json') { expand version: project.version } }
+test { useJUnitPlatform() }
+fabricApi {
+    configureTests {
+        createSourceSet = true
+        modId = 'petbees-test'
+        enableGameTests = true
+        enableClientGameTests = false
+        eula = true
+        clearRunDirectory = false
+    }
+}
+if (project.hasProperty('compat')) {
+    tasks.named('runGameTest') {
+        doFirst { copy { from 'compat-mods'; include '*.jar'; into 'build/run/gameTest/mods' } }
+    }
+}
+dependencies { gametestCompileOnly files('libs/jade.jar') }
+
+tasks.named("jar") { from("LICENSE") }

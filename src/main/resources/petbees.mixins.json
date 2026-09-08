@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "dev.petbees.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": ["BeeMixin", "BeeAccessor", "AnimalMixin", "LivingEntityMixin", "MobMixin", "HiveMixin", "HiveAccessor", "BeeDataAccessor", "EntityPersistenceMixin"],
+  "injectors": { "defaultRequire": 1 }
+}

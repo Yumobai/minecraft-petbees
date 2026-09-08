@@ -1,0 +1,1 @@
+{"schemaVersion":1,"id":"petbees-test","version":"1.0.0","name":"Pet Bees integration tests","environment":"*","mixins":["petbees-test.mixins.json"],"entrypoints":{"fabric-gametest":["dev.petbees.PetBeesGameTest"]}}

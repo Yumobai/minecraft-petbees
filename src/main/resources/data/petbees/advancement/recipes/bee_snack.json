@@ -1,0 +1,1 @@
+{"parent":"minecraft:recipes/root","criteria":{"has_honey":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"items":"minecraft:honey_bottle"}]}},"has_the_recipe":{"trigger":"minecraft:recipe_unlocked","conditions":{"recipe":"petbees:bee_snack"}}},"requirements":[["has_honey","has_the_recipe"]],"rewards":{"recipes":["petbees:bee_snack","petbees:bee_snack_bulk"]}}

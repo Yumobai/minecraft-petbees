@@ -1,0 +1,18 @@
+{
+  "commands.petbees.help": "/petbees count or watch: all loaded dimensions; append nearby: within 32 blocks of you; /petbees watch off: stop",
+  "commands.petbees.count": "Your bees [loaded, all dimensions]: %s (outside %s, in hives %s, including babies)",
+  "commands.petbees.live": "Bees [loaded, all dimensions]: %s | Outside %s | In hives %s | Change %s",
+  "commands.petbees.scope": "Living bees in loaded areas across all dimensions, updated about once per second. Unloaded chunks and bees stored in items are excluded. A decrease can mean unloading or picking up a hive, not necessarily death or lost ownership. Use /petbees count nearby or /petbees watch nearby for bees within 32 blocks of you.",
+  "commands.petbees.watch_started": "Live bee count enabled above the hotbar. Use /petbees watch off to stop.",
+  "commands.petbees.watch_stopped": "Live bee count disabled.",
+  "item.petbees.bee_snack": "Bee Snack",
+  "tooltip.petbees.tamed": "Tamed",
+  "tooltip.petbees.untamed": "Untamed",
+  "tooltip.petbees.hive_wild_count": "Untamed bees: %s",
+  "tooltip.petbees.owner": "Owner: %s",
+  "tooltip.petbees.hive_count": "Tamed bees: %s",
+  "tooltip.petbees.hive_owner": "Bee %s · Owner: %s",
+  "config.jade.plugin_petbees.owner": "Bee ownership",
+  "config.jade.plugin_petbees.hive_owners": "Hive ownership",
+  "commands.petbees.nearby": "Your bees [within 32 blocks, current dimension]: %s | Outside %s | In hives %s (includes babies)"
+}
