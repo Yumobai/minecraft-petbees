@@ -3,8 +3,6 @@
 适用 Minecraft **26.2**、Fabric Loader **0.19.3 或更新版本**、Java **25**。
 需要 Fabric API **0.158.0+26.2 或对应 26.2 的更新版**。
 
-这是一个全vibecoding的模组，与GPT-6 Astra大人联手打造，欢迎来测，多多star和提交issues
-以下是Astra大人提供的readme内容
 
 ## 安装
 
